@@ -4,7 +4,7 @@
 int main()
 {
     int a,b,x,z;
-printf("******************Calculadora******************\n");
+printf("******************Calc-teste******************\n");
 printf(" 1             MULTIPLICACAO\n 2             DIVISAO\n 3             ADICAO\n 4             SUBTRACAO\n\n\n");
 scanf("%i", &x);
 
