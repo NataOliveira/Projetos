@@ -11,7 +11,9 @@ scanf("%i", &x);
 switch(x){
     case 1:
     printf("\nMultiplicacao\n");
+    printf("Digite um numero: ");
     scanf("%i",&a);
+    printf("Digite um numero: ");
     scanf("%i",&b);
     z = a*b;
     printf("\nA multiplicacao de ""%i" " e " "%i" " ,igual a : " "%i",a,b,z);
@@ -20,7 +22,9 @@ switch(x){
 
     case 2:
     printf("\divisao\n");
+    printf("Digite um numero: ");
     scanf("%i",&a);
+    printf("Digite um numero: ");
     scanf("%i",&b);
     z = a/b;
     printf("%i",z);
@@ -29,7 +33,9 @@ switch(x){
 
     case 3:
     printf("\nadicao\n");
+    printf("Digite um numero: ");
     scanf("%i",&a);
+    printf("Digite um numero: ");
     scanf("%i",&b);
     z = a+b;
     printf("%i",z);
@@ -38,7 +44,9 @@ switch(x){
 
     case 4:
     printf("\nsubtracao\n");
+    printf("Digite um numero: ");
     scanf("%i",&a);
+    printf("Digite um numero: ");
     scanf("%i",&b);
     z = a-b;
     printf("%i",z);
