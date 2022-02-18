@@ -17,19 +17,23 @@ header{
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.445);
     height: 120px;
     color: white;
-    padding: 6px;
+    padding: 15px;
     margin: 0px;
 }
 
 header > a:hover{
     color: rgb(218, 218, 218);
     font-size: 2em;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
 }
 
 header > a{
 color: rgb(245, 241, 241);
 text-decoration: none;
+padding-left: 10px;
+ padding-right: 10px;
     
 }
 a#ati{
@@ -39,7 +43,7 @@ a#ati{
 
 
 main{
-    margin: 100px;
+    margin: 10px;
     width: auto;
     
 }
