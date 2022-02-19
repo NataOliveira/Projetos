@@ -47,7 +47,6 @@ a#ati{
 
 
 main{
-    margin: 10px 80px;
     width: auto;
     
 }
@@ -99,7 +98,7 @@ a:hover{
 
 .piccar{
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.5);
-    width: 100%;
+    width: 90%;
     margin: 0px;
     padding: 0px;
     
