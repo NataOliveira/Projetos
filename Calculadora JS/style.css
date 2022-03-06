@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: #027373;
+    height: 97vh;
+    justify-content: center;
+    display: flex;
+    
+}
+
+div#conteiner{
+background-color: #F2E7DC;
+width: 435px;
+height: 550px;
+border-radius: 5px;
+margin-top: 20px;
+max-height: 600px;
+padding: 10px;
+box-shadow: 10px 10px 20px #00000075;
+text-align: center;
+border: outset 8px  rgba(128, 128, 128, 0.411);
+
+}
+
+input#tela{
+    border-radius: 5px;
+    width: 90%;
+    background-color: rgba(2, 97, 2, 0.233);
+    height: 12%;
+    font-size: 2em;
+    margin-top: 5px;
+    box-shadow: inset 1px 2px 4px;
+    margin-left: 16px ;
+    margin-bottom: 20px;
+}
+
+.botoes{
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    height: 75px;
+    margin: 5px 15px;
+    font-size: 2em;
+    box-shadow: inset 1px 1px 4px;
+    width: 75px;
+    background-color: #e7e7e7;
+
+}
+
+#igual{
+    background-color:#027373;
+}
