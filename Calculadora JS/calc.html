@@ -10,34 +10,37 @@
 <body>
     <section>
         <div id="conteiner">
-            <input type="text" name="" id="tela">
+           
+               
+                <input type="text" name="tela" id="tela">
+                <input type="button" value="c"class="botoes"onclick="location.reload()">
 
-            <input type="button" value="c" class="botoes" id="c" onclick="c">
-
-            <input type="button" value="%" class="botoes" id="porcento" onclick="porcento()">
-            <input type="button" value="/" class="botoes" id="divisao" onclick="divisao()">
-            <input type="button" value="n!" class="botoes" id="fatorial" onclick="fatorial()">
-            <input type="button" value="7" class="botoes" id="7" onclick="sete()">
-            <input type="button" value="8" class="botoes" id="8" onclick="oito()">
-            <input type="button" value="9" class="botoes" id="9" onclick="nove()">
-            <input type="button" value="X" class="botoes" id="x" onclick="x()">
-            <input type="button" value="4" class="botoes" id="4" onclick="quatro()">
-            <input type="button" value="5" class="botoes" id="5" onclick="cinco()">
-            <input type="button" value="6" class="botoes" id="6" onclick="seis()">
-            <input type="button" value="-" class="botoes" id="menos" onclick="menos()"> 
-            <input type="button" value="1" class="botoes" id="1" onclick="um()">
-            <input type="button" value="2" class="botoes" id="2" onclick="dois()">
-            <input type="button" value="3" class="botoes" id="3" onclick="tres()">
-            <input type="button" value="+" class="botoes" id="mais" onclick="mais()">
-            <input type="button" value="." class="botoes" id="ponto" onclick="ponto()">
-            <input type="button" value="0" class="botoes" id="0" onclick="zero()">
-            <input type="button" value="Pt" class="botoes" id="p" onclick="p()">
-            <input type="button" value="=" class="botoes" id="igual" onclick="igual"> <br>
-            <p>&copy;NatanOliveira</p>
+                <input type="button" value="/" name="div" class="botoes" onclick="displaynum('/')">
+                <input type="button" value="7" name="set" class="botoes"  onclick="displaynum('7')">
+                <input type="button" value="8" name="oit" class="botoes" onclick="displaynum('8')">
+                <input type="button" value="9" name="nov" class="botoes"  onclick="displaynum('9')">
+                <input type="button" value="X" name="x" class="botoes"  onclick="displaynum('x')">
+                <input type="button" value="4" name="qua" class="botoes"  onclick="displaynum('4')">
+                <input type="button" value="5" name="cin" class="botoes"  onclick="displaynum('5')">
+                <input type="button" value="6" name="sei" class="botoes"  onclick="displaynum('6')">
+                <input type="button" value="-" name="men" class="botoes" onclick="displaynum('-')">
+                <input type="button" value="1" name="um" class="botoes" onclick="displaynum('1')">
+                <input type="button" value="2" name="doi" class="botoes" onclick="displaynum('2')">
+                <input type="button" value="3" name="tre" class="botoes" onclick="displaynum('3')">
+                <input type="button" value="+" name="mai" class="botoes" onclick="displaynum('+')">
+                <input type="button" value="." name="pon" class="botoes"  onclick="displaynum('.')">
+                <input type="button" value="0" name="zer" class="botoes" onclick="displaynum('0')">
+                <input type="button" value="=" name="igu" class="botoes" onclick="displaynum('=')"> <br>
+                <p>&copy;NatanOliveira</p>
+          
         </div>
         
         </div>
     </section>
-<script src="script.js"></script>
+<script>
+    function displaynum(n) {
+       document.getElementById('tela').innerHTML = n;
+    }
+</script>
 </body>
 </html>

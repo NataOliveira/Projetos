@@ -11,7 +11,7 @@ body{
 div#conteiner{
 background-color: #F2E7DC;
 width: 435px;
-height: 550px;
+height: 500px;
 border-radius: 5px;
 margin-top: 20px;
 max-height: 600px;
@@ -24,9 +24,9 @@ border: outset 8px  rgba(128, 128, 128, 0.411);
 
 input#tela{
     border-radius: 5px;
-    width: 90%;
+    width: 69%;
     background-color: rgba(2, 97, 2, 0.233);
-    height: 12%;
+    height: 35px;
     font-size: 2em;
     margin-top: 5px;
     box-shadow: inset 1px 2px 4px;
