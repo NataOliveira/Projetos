@@ -9,7 +9,7 @@ var n7 = document.getElementById ('7')
 var n8 = document.getElementById ('8')
 var n9 = document.getElementById ('9')
 var n0 = document.getElementById ('0')
-var point = document.getElementById('.')
+
 
 n1 = 1
 n2 = 2
@@ -21,7 +21,7 @@ n7 = 7
 n8 = 8
 n9 = 9
 n0 = 0
-
+ 
 //funcoes
 
 function c(){ document.getElementById('tela').value = ''}
@@ -39,7 +39,14 @@ function menos(){}
 function um(){document.getElementById('tela').value += '1'}
 function dois(){document.getElementById('tela').value += '2'}
 function tres(){document.getElementById('tela').value += '3'}
-function mais(){}
+function mais(){
+    var x = tela.value
+    tela.innerHTML = ''
+    var y = tela.value
+    totalsomar= x+y
+    tela.innerHTML = `${totalsomar}`
+    
+}
 function ponto(){document.getElementById('tela').value += '.'}
 function zero(){document.getElementById('tela').value += '0'}
 function p(){}
